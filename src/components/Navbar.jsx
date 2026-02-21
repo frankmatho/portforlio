@@ -1,8 +1,8 @@
 function Navbar() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">Navbar Section</h1>
-    </section>
+    <nav id="nav" className="sticky top-0 px-4 py-6 z-50 bg-teal-200 shadow-sm">
+      <h1 className=" font-bold">Navbar Section</h1>
+    </nav>
   );
 }
 

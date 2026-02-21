@@ -1,7 +1,7 @@
 function Footer() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center">
-      <h1 className="text-5xl font-bold">Footer Section</h1>
+    <section id="footer" className="py-5 flex items-center justify-center bg-teal-200 text-white">
+      <h1 className="font-bold text-2xl">Footer Section</h1>
     </section>
   );
 }
