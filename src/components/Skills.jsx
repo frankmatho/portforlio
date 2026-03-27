@@ -2,7 +2,8 @@ import {
   FaReact, 
   FaNodeJs, 
   FaGitAlt, 
-  FaGithub 
+  FaGithub,
+  FaDocker 
 } from "react-icons/fa";
 
 import { 
@@ -14,16 +15,18 @@ import {
   SiVite 
 } from "react-icons/si";
 
+import { BiLogoPostgresql } from "react-icons/bi";
+
 function Skills() {
   return (
-    <section id="skills" className="py-28 bg-teal-300">
+    <section id="skills" className="py-28 bg-slate-800">
       <div className="max-w-7xl mx-auto px-6">
 
         {/* Header */}
         <div className="mb-20">
           <div className="w-16 h-1 bg-indigo-600 mb-8"></div>
-          <h2 className="text-4xl font-bold">Technical Skills</h2>
-          <p className="mt-4 text-gray-600 text-lg max-w-2xl">
+          <h2 className="text-white text-4xl font-bold">Technical Skills</h2>
+          <p className="mt-4 text-slate-400 text-lg max-w-2xl">
             Technologies and tools I use to design, build, and scale
             modern web applications.
           </p>
@@ -33,7 +36,7 @@ function Skills() {
         <div className="grid md:grid-cols-3 gap-12">
 
           {/* Frontend */}
-          <div className="bg-lime-100 p-8 rounded-2xl shadow-sm border border-none hover:shadow-md transition">
+          <div className="bg-white p-8 rounded-2xl shadow-sm border border-none hover:shadow-md transition">
             <h3 className="text-xl font-semibold mb-6">
             Frontend Development
             </h3>
@@ -62,7 +65,7 @@ function Skills() {
           </div>
 
           {/* Backend */}
-          <div className="bg-lime-100 p-8 rounded-2xl shadow-sm border border-none hover:shadow-md transition">
+          <div className="bg-white p-8 rounded-2xl shadow-sm border border-none hover:shadow-md transition">
             <h3 className="text-xl font-semibold mb-6">
             Backend & Architecture
            </h3>
@@ -82,11 +85,21 @@ function Skills() {
               <span className="w-5 h-5 bg-indigo-600 rounded-sm"></span>
               <span>REST APIs</span>
             </div>
+
+            <div className="flex items-center gap-3">
+              <BiLogoPostgresql className="text-gray-700 text-xl"/>
+              <span>PostgreSQL</span>
+            </div>
+
+            <div className="flex items-center gap-3">
+              <FaDocker className="text-blue-700 text-xl"/>
+              <span>Docker</span>
+            </div>
            </div>
           </div>
 
           {/* Tools */}
-         <div className="bg-lime-100 p-8 rounded-2xl shadow-sm border border-none hover:shadow-md transition">
+         <div className="bg-white p-8 rounded-2xl shadow-sm border border-none hover:shadow-md transition">
            <h3 className="text-xl font-semibold mb-6">
            Tools & Workflow
            </h3>
