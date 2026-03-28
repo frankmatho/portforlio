@@ -32,7 +32,7 @@ const projects = [
       "Educore is a website that is designed for schools to help them keep better track records of the students and teacher in school and see how students progress",
     image: "https://plus.unsplash.com/premium_photo-1663099814676-72cfabfb91f8?q=80&w=1090&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tech: ["System Design", "Backend Planning", "Vite", "PostgreSQL"],
-    live: "https://educore-tau.vercel.app/login",
+    live: "https://educore-tau.vercel.app/",
     github: "https://github.com/frankmatho/educore",
   },
   {
@@ -59,7 +59,7 @@ const projects = [
       "This is a system that is designed for hospitals to help with storing and managing patients records as well as doctors",
     image: "https://images.unsplash.com/photo-1599045118108-bf9954418b76?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     tech: ["React", "Tailwind", "Vite", "PostgreSQL"],
-    live: "https://afya-ochre.vercel.app/login",
+    live: "https://afya-ochre.vercel.app/",
     github: "https://github.com/frankmatho/afya",
   }
 ];
